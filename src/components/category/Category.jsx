@@ -32,7 +32,7 @@ const Category = ({data}) => {
   return (
     <div className='category'>
       <div className='categoryHeader' style={{backgroundImage: `url(${image})`}}>
-        <Back />
+        <Back link={'/glace_star'}/>
       </div>
       <div className='healthyBox'>
         <span className='healthyTitle'>

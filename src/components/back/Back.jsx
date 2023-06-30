@@ -2,10 +2,10 @@ import './back.scss';
 import { Link, useParams } from 'react-router-dom';
 import arrow from '../../assets/images/arrowBack.svg';
 
-const Back = () => {
+const Back = ({link}) => {
     let {path} = useParams();
     return(
-        <Link to={`/categories/${path}`} activeclassname="active" className='menu'>
+        <Link to={link ? link : `/categories/${path}`} activeclassname="active" className='menu'>
             <div className='back'>
                 <img src={arrow} alt='back'/>
             </div>
