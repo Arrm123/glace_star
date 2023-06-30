@@ -1,0 +1,47 @@
+.radio-buttons-row {
+  display: flex;
+  justify-content: center;
+}
+
+.radio-button-label {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.radio-button-text {
+  display: inline-block;
+  border-radius: 20px;
+  color: black;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  color: #503A2C;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  display:flex;
+}
+
+.radio-button-text:hover {
+  background-color: lightgray;
+}
+
+.radio-button-input:checked + .radio-button-text {
+  background-color: blue;
+  color: white;
+  
+}
+.radio-button-input{
+  box-sizing: border-box;
+}
+
+input[type='radio'] { 
+  transform: scale(2); 
+  accent-color:#503A2C;
+  margin-top: 0;
+
+}

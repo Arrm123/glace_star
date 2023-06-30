@@ -1,0 +1,68 @@
+
+.radio-button-label {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.radio-button-text {
+  display: inline-block;
+  border-radius: 20px;
+  color: black;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  color: #503A2C;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  display:flex;
+}
+
+.radio-button-text:hover {
+  background-color: lightgray;
+}
+
+.radio-button-input:checked + .radio-button-text {
+  background-color: blue;
+  color: white;
+  
+}
+.radio-button-input{
+  box-sizing: border-box;
+}
+
+input[type='radio'] { 
+  transform: scale(2); 
+  accent-color:#503A2C;
+  margin-top: 0;
+}
+.radio-title{
+  display: inline-block;
+  border-radius: 20px;
+  color: black;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  color: #503A2C;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  display:flex;
+  font-size: 16px;
+  line-height: 19px;
+}
+.radio-input{
+  display:flex;
+  width:60px;
+  justify-content:space-between;
+}
+.many-buttons-row{
+  border-bottom:solid 1px #503A2C;
+  display: flex;
+  justify-content: space-between;
+}

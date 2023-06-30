@@ -1,0 +1,29 @@
+.back{
+    border-radius: 50%;
+    height:36px;
+    width:36px;
+    border: 1px solid gray;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F0EF;
+    img{
+        height: 16px;
+        width: 10px;
+    }
+}
+.active{
+    background-color: #503A2C;
+    color: #F4F0EF;
+}
+.menu{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 14px;
+    text-align: center;
+    color: #F4F0EF;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 18px;
+}

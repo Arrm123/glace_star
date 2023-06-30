@@ -1,0 +1,64 @@
+.createOrder{
+    background-color:#F5EBDF;
+    height:100vh;
+    margin-top: -50px;
+    padding-top: 50px;
+    padding-left: 25px;
+}
+.yourOrder{   
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 20px;
+color: #503A2C;
+margin-top: 30px;
+}
+.yourOrderBox{
+box-sizing: border-box;
+position: absolute;
+width: 140px;
+height: 180px;
+border: 1px solid #503A2C;
+border-radius: 15px;
+margin-top: 27px;
+overflow:hidden;
+}
+.healthySweetsBox{  
+width: 111px;
+height: 24px;
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #503A2C;
+}
+.allSizeV2{
+    justify-content: flex-start;
+    gap: 2px;
+    div{
+        width: 24px;
+        height: 10px;
+        font-size: 6px;
+    }
+}
+.price{
+width: 57px;
+height: 16px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+color: #503A2C;
+}
+.pictureBox{
+    width: 100%;
+    height: 107px;
+    background-size:cover;
+    
+}
+.allInOne{
+    padding-left:7px;
+}

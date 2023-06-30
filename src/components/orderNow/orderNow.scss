@@ -1,0 +1,42 @@
+.orderNow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 170px;
+    justify-content: flex-end;
+}
+.orderNowTitle{
+    font-family: 'Kagnue Free';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 22px;
+    color: #503A2C;
+}
+.orderNowDesc{
+    width: 332px;
+    height: 32px;
+    left: 29px;
+    top: 143px; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #503A2C;
+    
+}
+.orderNowButton{
+    width: 100px;
+    height: 25px;
+    left: 144px;
+    top: 213px;
+    background: #503A2C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #F4F0EF;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
