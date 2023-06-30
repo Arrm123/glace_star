@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/glace_star/static/css/main.18b06907.css",
+    "main.js": "/glace_star/static/js/main.1c466fd6.js",
+    "static/js/787.23170c61.chunk.js": "/glace_star/static/js/787.23170c61.chunk.js",
+    "static/media/desk1.png": "/glace_star/static/media/desk1.5fd78eae05a9ca45d9a4.png",
+    "static/media/logo.svg": "/glace_star/static/media/logo.fb4e8462da59266a5eee9bf61ccb2306.svg",
+    "static/media/background.png": "/glace_star/static/media/background.2f4879e56e04e098de73.png",
+    "static/media/DriedFruits.png": "/glace_star/static/media/DriedFruits.42542700e742ead702d1.png",
+    "static/media/sweets.png": "/glace_star/static/media/sweets.4a1f374551aadedf2790.png",
+    "static/media/OreshkiWithCream.png": "/glace_star/static/media/OreshkiWithCream.32d96a6604187320c584.png",
+    "static/media/cookies.png": "/glace_star/static/media/cookies.46485461a1f4b467771d.png",
+    "static/media/coconutBalls.png": "/glace_star/static/media/coconutBalls.ac349722325c59828b89.png",
+    "static/media/kagnuefreeregular-vgj2l.otf": "/glace_star/static/media/kagnuefreeregular-vgj2l.378546f85b32291c96f0.otf",
+    "index.html": "/glace_star/index.html",
+    "static/media/arrowBack.svg": "/glace_star/static/media/arrowBack.0594d254db038fa990fa19753061021e.svg",
+    "static/media/plus.svg": "/glace_star/static/media/plus.9dc577ec97fb91cf02677138d550c5b1.svg",
+    "static/media/minus.svg": "/glace_star/static/media/minus.2379d82dfa1383479d008844417aa9c9.svg",
+    "main.18b06907.css.map": "/glace_star/static/css/main.18b06907.css.map",
+    "main.1c466fd6.js.map": "/glace_star/static/js/main.1c466fd6.js.map",
+    "787.23170c61.chunk.js.map": "/glace_star/static/js/787.23170c61.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18b06907.css",
+    "static/js/main.1c466fd6.js"
+  ]
+}
