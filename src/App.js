@@ -15,7 +15,7 @@ function App() {
     <Header />
     <Routes>
        <Route path="glace_star" exact element={<Home/>}/>
-       <Route path="/about"  />
+       <Route path="/about"/>
        <Route path="/categories/sweetstuff"  element={<SweetStuff/>}/>
        <Route path="/categories/dried-fruits" element={ <DriedFruits/>}/>
        <Route path="/categories/cookies" element={<Cookies/>}/>
