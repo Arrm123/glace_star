@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/glace_star/static/css/main.18b06907.css",
-    "main.js": "/glace_star/static/js/main.1c466fd6.js",
+    "main.js": "/glace_star/static/js/main.e4937274.js",
     "static/js/787.23170c61.chunk.js": "/glace_star/static/js/787.23170c61.chunk.js",
     "static/media/desk1.png": "/glace_star/static/media/desk1.5fd78eae05a9ca45d9a4.png",
     "static/media/logo.svg": "/glace_star/static/media/logo.fb4e8462da59266a5eee9bf61ccb2306.svg",
@@ -17,11 +17,11 @@
     "static/media/plus.svg": "/glace_star/static/media/plus.9dc577ec97fb91cf02677138d550c5b1.svg",
     "static/media/minus.svg": "/glace_star/static/media/minus.2379d82dfa1383479d008844417aa9c9.svg",
     "main.18b06907.css.map": "/glace_star/static/css/main.18b06907.css.map",
-    "main.1c466fd6.js.map": "/glace_star/static/js/main.1c466fd6.js.map",
+    "main.e4937274.js.map": "/glace_star/static/js/main.e4937274.js.map",
     "787.23170c61.chunk.js.map": "/glace_star/static/js/787.23170c61.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.18b06907.css",
-    "static/js/main.1c466fd6.js"
+    "static/js/main.e4937274.js"
   ]
 }
