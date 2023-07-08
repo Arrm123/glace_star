@@ -44,8 +44,8 @@ input[type='radio'] {
   display: inline-block;
   border-radius: 20px;
   color: black;
-  padding: 10px;
-  margin: 5px;
+  // padding: 10px;
+  // margin: 5px;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
   color: #503A2C;
@@ -65,4 +65,6 @@ input[type='radio'] {
   border-bottom:solid 1px #503A2C;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 50px;
 }

@@ -60,13 +60,13 @@ const Category = ({data}) => {
             </span>
           </div>
           {type === 'toppings' ? <Topings options={options}/> : <Fillings options={options}/>}
-        </div>
         <div className='addToCart' onClick={()=>add()}>
           <Link to='order'>
             <span>
               Add to Cart
             </span>
           </Link>
+        </div>
         </div>
      </div>
     </div>

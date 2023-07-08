@@ -6,7 +6,12 @@ const initialState = {
   driedFruits: {},
   cookies: {},
   oreshki: {},
-  collected: {}
+  collected: {
+    'Chia Seeds':0,
+    'Pumpkin Seeds':0,
+    'White Chocolate':0,
+    'Chocolate Drops':0,
+  }
 }
 
 export const getSweet = createAsyncThunk(
@@ -36,12 +41,15 @@ export const counterSlice = createSlice({
       console.log(action,'action');
       if(action.payload.option !== 'empty'){
         let key = action.payload.option;
-        state.collected[key] = action.payload.count;
+        if(action.payload.do === 'add'){
+          state.collected[key] = state.collected[key] + 1 > 50 ? 50 : state.collected[key] + 1;
+        }
+        if(action.payload.do === 'sub'){
+          state.collected[key] = state.collected[key] - 1 < 0 ? 0 : state.collected[key] - 1;
+        }
       }else{
         state.collected = {}
       }
-      // let key = Object.keys(action.payload);
-      // state.collected[key] = Object.values(action.payload);
     },
   },
   extraReducers: (builder) => {

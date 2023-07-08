@@ -3,8 +3,8 @@
     height: 500px;
     background: hsl(0, 0%, 85%);
     margin-top: -20vh;
-    border-top-left-radius: 33%;
-    border-top-right-radius: 33%;
+    border-top-left-radius: 28%;
+    border-top-right-radius: 28%;
 }
 .whyChooseTitle{
     font-family: 'Kagnue Free';
@@ -27,7 +27,7 @@
 }
 .whyOptions{
     height: 350px;
-    width:40%;
+    width:50%;
 }
 .whyImage{
     height: 350px;
@@ -41,7 +41,7 @@
     display:flex;
     flex-wrap: wrap;
     gap:20%;
-    gap: 10%;
+    gap: 12%;
     justify-content: space-around;
     align-content: center;
     

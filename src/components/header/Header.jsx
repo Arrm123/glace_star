@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './header.scss';
 import logo from '../../assets/images/logo.svg';
+import down from '../../assets/images/down.png';
 
 const Header = () => {
 
@@ -13,9 +14,9 @@ const Header = () => {
       <div className="menuDiv">
         <Link to="/" activeclassname="active" className='menu'>Home</Link>
         <Link to="/about" activeclassname="active" className='menu'>About us</Link>
-        <div className="dropdown">
-          <Link to="#" onClick={() => setIsOpen(!isOpen)} className='menu'>Categories</Link>
-          <span className={`arrowDown ${isOpen && 'active'}`}>🢗</span>
+        <div className="dropdown" onClick={() => setIsOpen(!isOpen)} >
+          <Link to="#" className='menu'>Categories</Link>
+          <span className={`arrowDown ${isOpen && 'active'}`}><img className='arrowLogo' src={down} alt='down'/></span>
             <div className={`dropdown-content ${isOpen && 'active'}`} style={{ position: 'absolute' }} onClick={() => setIsOpen(!isOpen)}>
               <Link to="/categories/sweetstuff" activeclassname="active" className='menu'>Sweetstuff</Link>
               <Link to="/categories/dried-fruits" activeclassname="active" className='menu'>Dried Fruits</Link>

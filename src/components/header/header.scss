@@ -38,7 +38,7 @@
     margin-top: 10px;
 }
 .arrowDown{
-    height: 27px;
+    height: 14px;
     font-size: 32px;
     display: flex;
     margin-top: -4px;
@@ -51,10 +51,11 @@
 }
 .dropdown{
     display: flex;
-    position: 'relative';
+    align-items: center;
+    gap: 4px;
 }
 .dropdown-content{
-    margin-top: 30px;
+    margin-top: 200px;
     flex-direction: column;
     display: flex;
     gap: 30px;
@@ -88,4 +89,8 @@
             top: 30px;    
         }
     }
+}
+.arrowLogo{
+    width: 16px !important;
+    height: 14px !important;
 }
