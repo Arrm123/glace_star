@@ -50,6 +50,9 @@ const WhyChoose = () => {
               {item.title}
             </div>
           })}
+          <div className='customizeTitle'>
+          <span>CUSTOMIZE YOUR SWEETS</span>
+          </div>
         </div>
         <div className='whyImage'></div>
       </div>

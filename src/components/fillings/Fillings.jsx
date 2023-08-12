@@ -2,21 +2,33 @@ import React, { useEffect, useState } from 'react';
 import './fillings.scss';
 import RadioButtonsRow from '../radioButtonsRow/RadioButtonsRow';
 import ManyButtonsRow from '../manyButtonsRow/ManyButtonsRow';
-import { collected, selectCollected } from '../../features/sweet/sweetSlice';
+import { collectCookies, collectOreshki, collected, selectCollected, selectCollectedCookies, selectCollectedOreshki } from '../../features/sweet/sweetSlice';
 import { useDispatch, useSelector } from 'react-redux';
 
 
 const Fillings = ({options}) => {
 
   const type=['White', 'Chocolate', 'Mix'];
-  const [selected,onSelect] = useState('');
+  const [selected,onSelect] = useState({});
   const dispatch = useDispatch();
 
+  const cookies = useSelector(selectCollectedCookies)
+  const oreshki = useSelector(selectCollectedOreshki)
+
   useEffect(()=>{
-    if(selected !== ''){
-      dispatch(collected({selected:selected}));
+    if(options && options[0] === "Star"){
+      if(Object.keys(selected).length){
+        console.log(cookies);
+        dispatch(collectCookies(selected));
+      }
+    }else{
+      if(Object.keys(selected).length){
+        console.log(oreshki)
+        dispatch(collectOreshki(selected));
+      }
     }
   },[selected])
+
   
 return(
   <>
@@ -24,7 +36,7 @@ return(
       <span className='text'>
         Body Type
       </span>
-      <RadioButtonsRow type={type} onSelect={onSelect} />
+      {/* <RadioButtonsRow type={type} onSelect={onSelect} /> */}
     </div>
     <div className='addFilling'>
       <span>Add Filling 500AMD</span>
@@ -32,7 +44,7 @@ return(
         <span>
         {
           options && options.map((option,i)=>{
-            return <ManyButtonsRow title={option} k={i}/>
+            return <ManyButtonsRow onSelect={onSelect} title={option} key={i}/>
           })
         }
         </span>

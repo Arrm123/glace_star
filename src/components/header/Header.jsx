@@ -12,7 +12,7 @@ const Header = () => {
     <div className='menu-container-back'>
     <div className="menu-container">
       <div className="menuDiv">
-        <Link to="/" activeclassname="active" className='menu'>Home</Link>
+        <Link to="/glace_star" activeclassname="active" className='menu'>Home</Link>
         <Link to="/about" activeclassname="active" className='menu'>About us</Link>
         <div className="dropdown" onClick={() => setIsOpen(!isOpen)} >
           <Link to="#" className='menu'>Categories</Link>

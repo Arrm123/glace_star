@@ -5,7 +5,7 @@ import Fillings from '../fillings/Fillings';
 import { Link } from 'react-router-dom';
 import Back from '../back/Back';
 import { useDispatch, useSelector } from 'react-redux';
-import { collected, selectCollected } from '../../features/sweet/sweetSlice';
+import { collectCookies, collectDried, collectOreshki, collected, orderList, selectCollected, selectCollectedCookies, selectCollectedDried, selectCollectedOreshki, selectOrders } from '../../features/sweet/sweetSlice';
 
 const Category = ({data}) => {
   const [sizeState, setSizeState] = useState(0);
@@ -14,20 +14,29 @@ const Category = ({data}) => {
 
   const dispatch = useDispatch();
   const collect = useSelector(selectCollected)
-  
-  const add = () =>{
-    let parseData = [];
-    parseData = JSON.parse(localStorage.getItem('data'));
-    if(parseData){
-      parseData.push(data)
-      localStorage.setItem('data',JSON.stringify(parseData));
-    }else{
-      localStorage.setItem('data',JSON.stringify(data));
-    }
-    dispatch(collected({'size':sizeState}));
-    console.log(collect,'collect');
-  }
+  const collectDry = useSelector(selectCollectedDried)
+  const collectSweet = useSelector(selectCollected)
+  const collectedCookies = useSelector(selectCollectedCookies)
+  const collectedOreshki = useSelector(selectCollectedOreshki)
 
+  const add = () =>{
+    if(title === 'Dried Fruits'){
+      dispatch(orderList({'size':sizeState,'data':collectDry,'title':data.title}));
+      dispatch(collectDried({option:'empty'}));
+    }else if(title === 'Sweets Stuff'){
+      dispatch(orderList({'size':sizeState,'data':collectSweet,'title':data.title}));
+      dispatch(collected({option:'empty'}));
+    }else if(title === 'Cookies'){
+      dispatch(orderList({'size':sizeState,'data':collectedCookies,'title':data.title}));
+      dispatch(collectCookies({option:'empty'}));
+    }else if(title === 'Oreshki With Cream'){
+      dispatch(orderList({'size':sizeState,'data':collectedOreshki,'title':data.title}));
+      dispatch(collectOreshki({option:'empty'}));
+    }
+  }
+ 
+
+  console.log(data,'ova?');
 
   return (
     <div className='category'>
@@ -59,7 +68,7 @@ const Category = ({data}) => {
               {about}
             </span>
           </div>
-          {type === 'toppings' ? <Topings options={options}/> : <Fillings options={options}/>}
+          {type === 'toppings' ? <Topings title={title} options={options}/> : <Fillings options={options}/>}
         <div className='addToCart' onClick={()=>add()}>
           <Link to='order'>
             <span>

@@ -3,7 +3,7 @@ import Options from '../options/Options';
 import './topings.scss';
 
 
-const Topings = ({options}) => {
+const Topings = ({title,options}) => {
    
 return(
     <>
@@ -18,7 +18,7 @@ return(
                     <span className='pumpkinSeedsTitle'> 
                         {option}
                     </span>
-                    <Options option={option}/>
+                    <Options title={title} option={option}/>
                     </div>
                 )
             })}
