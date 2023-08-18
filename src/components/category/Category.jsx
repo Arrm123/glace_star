@@ -69,13 +69,13 @@ const Category = ({data}) => {
             </span>
           </div>
           {type === 'toppings' ? <Topings title={title} options={options}/> : <Fillings options={options}/>}
-        <div className='addToCart' onClick={()=>add()}>
           <Link to='order'>
-            <span>
-              Add to Cart
-            </span>
+            <div className='addToCart' onClick={()=>add()}>
+                <span>
+                  Add to Cart
+                </span>
+            </div>
           </Link>
-        </div>
         </div>
      </div>
     </div>
@@ -83,3 +83,6 @@ const Category = ({data}) => {
 };
 
 export default Category;
+
+
+//mobile ov 2 clickic a ashxatum u 2 hat avelaacnum
