@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/glace_star/static/css/main.18281387.css",
-    "main.js": "/glace_star/static/js/main.ea48fde5.js",
+    "main.css": "/glace_star/static/css/main.962d6f76.css",
+    "main.js": "/glace_star/static/js/main.d2781456.js",
     "static/js/787.23170c61.chunk.js": "/glace_star/static/js/787.23170c61.chunk.js",
     "static/media/desk1.png": "/glace_star/static/media/desk1.5fd78eae05a9ca45d9a4.png",
     "static/media/logo.svg": "/glace_star/static/media/logo.fb4e8462da59266a5eee9bf61ccb2306.svg",
@@ -16,12 +16,12 @@
     "static/media/arrowBack.svg": "/glace_star/static/media/arrowBack.0594d254db038fa990fa19753061021e.svg",
     "static/media/plus.svg": "/glace_star/static/media/plus.9dc577ec97fb91cf02677138d550c5b1.svg",
     "static/media/minus.svg": "/glace_star/static/media/minus.2379d82dfa1383479d008844417aa9c9.svg",
-    "main.18281387.css.map": "/glace_star/static/css/main.18281387.css.map",
-    "main.ea48fde5.js.map": "/glace_star/static/js/main.ea48fde5.js.map",
+    "main.962d6f76.css.map": "/glace_star/static/css/main.962d6f76.css.map",
+    "main.d2781456.js.map": "/glace_star/static/js/main.d2781456.js.map",
     "787.23170c61.chunk.js.map": "/glace_star/static/js/787.23170c61.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.18281387.css",
-    "static/js/main.ea48fde5.js"
+    "static/css/main.962d6f76.css",
+    "static/js/main.d2781456.js"
   ]
 }
