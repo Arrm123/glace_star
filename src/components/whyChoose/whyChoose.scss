@@ -1,10 +1,11 @@
 .whyChoose{
     width: 100%;
-    height: 500px;
+    height: 850px;
     background: hsl(0, 0%, 85%);
     margin-top: -20vh;
-    border-top-left-radius: 28%;
-    border-top-right-radius: 28%;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    
 }
 .whyChooseTitle{
     font-family: 'Kagnue Free';
@@ -59,5 +60,221 @@
     }
 }
 .customizeTitle{
-    
+    font-family: Kagnue Free;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 278px;
+    height: 23px;
+    width: 278px;
+    height: 23px;
+    text-align: right;
+    width: 100%;
+    color:#503A2C;
+    span{
+        margin-right:10px;
+    }
+}
+.customizeDiv{
+    display: flex;
+    align-items: flex-start;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: right;
+    padding-right:15px;
+    padding-top: 15px;
+    color:#503A2C;
+}
+.tryItNow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    span{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-family: Roboto;
+        font-size: 8px;
+        font-weight: 500;
+        letter-spacing: 0em;
+        text-align: center;
+        background-color: #503A2C;
+        color: #F4F0EF;
+        width: 80px;
+        height: 22px;
+    }
+}
+.deliveryTerms{
+    font-family: Kagnue Free;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#F4F0EF;
+
+}
+.deliveryBoxText{
+    font-family: Roboto;
+    color: #F4F0EF;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 4px;
+    letter-spacing: 0em;
+    text-align: center;
+    h5{
+        line-height: 10px;
+    }
+    span{
+        font-family: Roboto;
+        font-size: 9px;
+        font-weight: 400;
+        line-height: 10px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+}
+.chooseGoods{
+    width:30%;
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+}
+.deliveryBox{
+    display: flex;
+    justify-content: space-evenly;
+}
+.dFirst{
+    margin-top:20px;
+}
+.dSecond{
+    margin-top:40px;
+}
+.delivery{
+    background-color: #503A2C;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    padding-top: 20px;
+}
+.seasonal{
+    font-family: Kagnue Free;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#724F30;
+}
+.snowFlake{
+    height: 20px;
+    width: 20px;
+    background-image: url('../../assets/images/Snowfake.png');
+}
+.slideShow{
+    width: 80px;
+    height: 130px;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #724F30;
+    border-radius: 5px;
+}
+.slideImg{
+    width: 80px;
+    height: 60px;
+    border-radius: 5px 5px 0px 0px;
+    border: 1px;
+}
+.slideText{
+    font-family: Kagnue Free;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F5EBDF;
+    padding: 0 8px;
+    margin-top:4px;
+}
+.tryItNowSlide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  
+    span{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-family: Roboto;
+        font-size: 7px;
+        font-weight: 500;
+        letter-spacing: 0em;
+        text-align: center;
+        background-color:#724F30;
+        color: #F4F0EF;
+        width: 60px;
+        height: 17px;
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.438);
+        
+    }
+}
+.allCards{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.slider{
+    display: flex;
+    position: relative;
+    width: 80px;
+    margin-top:20px;
+}
+.slideFirst{
+    position: absolute;
+    left: -60px;
+    z-index: 3;
+}
+
+.slideSecond{
+    margin-top:-10px;
+    position: absolute;
+    z-index: 2;
+    background-color: #503A2C;
+    .tryItNowSlide{
+        span{
+            background-color: #503A2C;
+        }
+    }
+}
+
+.slideThird{
+    margin-top:-20px;
+    position: absolute;
+    left: 60px;
+    z-index: 1;
+}
+.nextButton{
+    background-image: url('../../assets/images/NextButton.png');
+    width: 19px;
+    height: 29px;
+    position: absolute;
+    right: -90px;
+    top: 60px;
+}
+
+.backButton{
+    background-image: url('../../assets/images/BackButton.png');
+    width: 19px;
+    height: 29px;
+    position: absolute;
+    left: -90px;
+    top: 60px;
 }
