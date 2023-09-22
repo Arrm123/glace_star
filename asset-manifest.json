@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/glace_star/static/css/main.962d6f76.css",
-    "main.js": "/glace_star/static/js/main.d2781456.js",
+    "main.css": "/glace_star/static/css/main.d7bfe2ca.css",
+    "main.js": "/glace_star/static/js/main.567b4488.js",
     "static/js/787.23170c61.chunk.js": "/glace_star/static/js/787.23170c61.chunk.js",
     "static/media/desk1.png": "/glace_star/static/media/desk1.5fd78eae05a9ca45d9a4.png",
     "static/media/logo.svg": "/glace_star/static/media/logo.fb4e8462da59266a5eee9bf61ccb2306.svg",
@@ -10,18 +10,25 @@
     "static/media/sweets.png": "/glace_star/static/media/sweets.4a1f374551aadedf2790.png",
     "static/media/OreshkiWithCream.png": "/glace_star/static/media/OreshkiWithCream.32d96a6604187320c584.png",
     "static/media/cookies.png": "/glace_star/static/media/cookies.46485461a1f4b467771d.png",
+    "static/media/image5.png": "/glace_star/static/media/image5.c776ae2f56ff07a56e1d.png",
+    "static/media/dsecond.svg": "/glace_star/static/media/dsecond.77ee4b4def4b3cace2fd3d58ed248f55.svg",
     "static/media/coconutBalls.png": "/glace_star/static/media/coconutBalls.ac349722325c59828b89.png",
+    "static/media/dthird.svg": "/glace_star/static/media/dthird.2ad62752eab87521c1a5b4900f29470a.svg",
+    "static/media/Delivery.svg": "/glace_star/static/media/Delivery.6489ffcee5176a6a18845854480f7254.svg",
+    "static/media/SlideShow2.png": "/glace_star/static/media/SlideShow2.db1fadf2c798ece14d40.png",
+    "static/media/SlideShow3.png": "/glace_star/static/media/SlideShow3.62055f249cdd609a834a.png",
     "static/media/kagnuefreeregular-vgj2l.otf": "/glace_star/static/media/kagnuefreeregular-vgj2l.378546f85b32291c96f0.otf",
+    "static/media/Snowfake.png": "/glace_star/static/media/Snowfake.f514d7bf1c98f18f25dc.png",
     "index.html": "/glace_star/index.html",
     "static/media/arrowBack.svg": "/glace_star/static/media/arrowBack.0594d254db038fa990fa19753061021e.svg",
     "static/media/plus.svg": "/glace_star/static/media/plus.9dc577ec97fb91cf02677138d550c5b1.svg",
     "static/media/minus.svg": "/glace_star/static/media/minus.2379d82dfa1383479d008844417aa9c9.svg",
-    "main.962d6f76.css.map": "/glace_star/static/css/main.962d6f76.css.map",
-    "main.d2781456.js.map": "/glace_star/static/js/main.d2781456.js.map",
+    "main.d7bfe2ca.css.map": "/glace_star/static/css/main.d7bfe2ca.css.map",
+    "main.567b4488.js.map": "/glace_star/static/js/main.567b4488.js.map",
     "787.23170c61.chunk.js.map": "/glace_star/static/js/787.23170c61.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.962d6f76.css",
-    "static/js/main.d2781456.js"
+    "static/css/main.d7bfe2ca.css",
+    "static/js/main.567b4488.js"
   ]
 }
